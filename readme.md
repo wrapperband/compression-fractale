@@ -1,9 +1,9 @@
-# fzip - Fractal Image Compression  ![Travis Status] (https://api.travis-ci.org/wrapperband/fzip.svg)
+# fzip - Fractal Image Compression 
 Algorythm to compress and decompress fractal image files in *.ifs file format.      TIPE 2015-2016.
 
 ## [Documentation]
 
-/documents (https://github.com/remi100756/Compression-Fractale/blob/master/documentation.md)
+/documents 
 
 ## Configuration
 
@@ -19,13 +19,13 @@ make -lpthread   # Compilation (linux)
 make clean # Pour enlever les fichiers de compilation
 
 
-### Running the Compression Example
+### Example of running the compression algorithm to *.ifs
 ```shell
 
 ./fzip -p input-file.png -v -c --threads 20 -z -t -f output-file.ifs
 
 
-### Running the De-compression Example
+###  Example of running the decompression algorithm to *.png
 ```shell
 
 ./fzip -p output-file.png -v -c --threads 20 -x -t -f input-file.ifs -n 2
