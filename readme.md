@@ -1,11 +1,13 @@
-# Compression Fractale ![Travis Status](https://api.travis-ci.org/remi100756/Compression-Fractale.svg)
-Algo de compression d'image par fractales. TIPE 2015-2016.
+# fzip - Fractal Image Compression  ![Travis Status] (https://api.travis-ci.org/wrapperband/fzip.svg)
+Algorythm to compress and decompress fractal image files in *.ifs file format.      TIPE 2015-2016.
 
-## [Documentation du code](https://github.com/remi100756/Compression-Fractale/blob/master/documentation.md)
+## [Documentation]
+
+/documents (https://github.com/remi100756/Compression-Fractale/blob/master/documentation.md)
 
 ## Configuration
 
-### Récupération du projet
+### Obtain the project source
 ```shell
 git clone https://github.com/remi100756/Compression-Fractale.git
 cd Compression-Fractale
@@ -19,6 +21,7 @@ make clean # Pour enlever les fichiers de compilation
 
 ### Running the Compression Example
 ```shell
+
 ./fzip -p input-file.png -v -c --threads 20 -z -t -f output-file.ifs
 
 
